@@ -1,7 +1,6 @@
 import './ui/global.css';
-import {Lusitana , Alexandria } from 'next/font/google';
+import {Alexandria } from 'next/font/google';
 
-const latin = Lusitana({subsets: ['latin'], weight: ['400', '700']});
 const alex = Alexandria({subsets: ['latin'], weight: ['400', '700']});
 export default function RootLayout({ children }) {
   return (
